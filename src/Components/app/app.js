@@ -3,7 +3,6 @@ import Header from './header';
 import Container from './container';
 import Gallery from './gallery';
 import Footer from './footer';
-import './app.css';
 
 const App = () => {
   return (
