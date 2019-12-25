@@ -1,3 +1,3 @@
-import App from './app';
+import Container from './container';
 
-export default App;
+export default Container;

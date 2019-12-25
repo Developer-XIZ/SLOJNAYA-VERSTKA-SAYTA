@@ -1,3 +1,3 @@
-import App from './app';
+import Footer from './footer';
 
-export default App;
+export default Footer;
