@@ -1,0 +1,51 @@
+.banner .slider {
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+.banner .slider .arrow_left {
+    background: url("alb.png") no-repeat center center;
+    width:48px;
+    height:48px;
+    position: absolute;
+    left:20px;
+    cursor:pointer;
+}
+.banner .slider .arrow_right {
+    background: url("arb.png") no-repeat center center;
+    width:48px;
+    height:48px;
+    position: absolute;
+    right:20px;
+    cursor:pointer;
+}
+.banner .slider .photo {
+    height:300px;
+    flex-basis:100%;
+    background: url("slider.jpg") no-repeat center bottom/cover; 
+}
+.banner .slider .photo p {
+    color:#fff;
+    background: rgba(0,0,0,0.7);
+    display: inline-block;
+    position: absolute;
+    padding:10px;
+    left:20px;
+    bottom:10px;
+    font-size: 20px;
+}
+.slider_switch {
+    text-align: center;
+    margin-top:10px;
+}
+.slider_switch span {
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    border:2px solid #278a87;
+    cursor:pointer;
+}
+.slider_switch .active {
+    background: #efc01a;
+}

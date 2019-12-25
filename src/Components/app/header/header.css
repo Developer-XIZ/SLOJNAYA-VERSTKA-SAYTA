@@ -1,0 +1,20 @@
+header {
+    background: #222222;
+    padding:8px 0;
+}
+.top_wrap {
+    border-top:1px solid #dfdfdf;
+    border-bottom:1px solid #dfdfdf;
+}
+.top_wrap > div {
+    display:flex;
+    align-items:center;
+    height:70px;
+    width:80%;
+    margin: 0 auto;
+}
+.top_wrap .description {
+    flex-basis:40%;
+    color:#a9abaa;
+    font-size: 13px;
+}
